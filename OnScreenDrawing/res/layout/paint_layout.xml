@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/actionControls"
+        android:layout_width="80dip"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="#AA000000"
+        android:padding="10dip"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dip"
+            android:src="@drawable/gallery_icon" />
+
+        <ImageView
+            android:id="@+id/closeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/gallery"
+            android:layout_marginBottom="10dip"
+            android:src="@drawable/close" />
+
+        <ImageView
+            android:id="@+id/capture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/closeBtn"
+            android:src="@drawable/capture" />
+
+        <ImageView
+            android:id="@+id/erase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/capture"
+            android:src="@drawable/erase" />
+
+        <ImageView
+            android:id="@+id/blur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/erase"
+            android:src="@drawable/blur" />
+
+        <ImageView
+            android:id="@+id/emboss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/blur"
+            android:src="@drawable/emboss" />
+
+        <ImageView
+            android:id="@+id/choose_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/emboss"
+            android:src="@drawable/choose_color" />
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/choose_color"
+            android:src="@drawable/share" />
+    </RelativeLayout>
+
+</FrameLayout>

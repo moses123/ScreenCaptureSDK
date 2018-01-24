@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">OnScreenDrawing</string>
+    <string name="select_receipent_address">Please select a receipent.</string>
+    <string name="add">ADD</string>
+    <string name="send">SEND</string>
+    <string name="receipent_title">Please Add Receipents To Share Images.</string>
+    <string name="empty_gallery_txt">No Images to View</string>
+    <string name="multiple_share">Click to share multiple images</string>
+    <string name="receipent_msg">Please enter a recipent</string>
+  <string name="saving_image">Saving image please wait..</string>
+  <string name="fail_msg">Failed to save the image</string>
+ <string name="edittext_hint">Enter receipents...</string>
+ <string name="progress">Please wait...</string>
+</resources>
